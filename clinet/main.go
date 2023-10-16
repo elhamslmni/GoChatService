@@ -28,7 +28,7 @@ func main() {
 
 	for {
 		time.Sleep(10 * time.Second)
-		err = conn.WriteMessage(websocket.TextMessage, []byte("hello-world"))
+		err = conn.WriteMessage(websocket.TextMessage, []byte("create:::bulbul:::coodee"))
 		if err != nil {
 			log.Println("Error sending message:", err)
 			break
